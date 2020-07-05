@@ -14,14 +14,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  min-height: calc(100vh - calc(100vh - 100%));
   font-family: Poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: calc(0.6em + 0.5vw);
   background-color: #fcfcfc;
   color: #111111;
-  border-bottom: 0.2em solid rgba(244,6,18);
 }
 
 .wrapper {
