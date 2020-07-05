@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  min-height: calc(100vh - calc(100vh - 100%));
   font-family: Poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
