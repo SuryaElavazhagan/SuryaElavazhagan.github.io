@@ -54,6 +54,14 @@ a::after {
   margin-right: 0.5em;
 }
 
+.tag {
+  font-size: 0.6rem;
+  background-color: aquamarine;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  margin: 0 0.3rem;
+}
+
 
 @media screen and (min-width: 50em) {
   body {
