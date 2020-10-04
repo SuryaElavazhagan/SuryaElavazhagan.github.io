@@ -28,17 +28,17 @@ body {
   max-width: 26em;
 }
 
-a {
+a:not([data-no-style]) {
   color: #111111;
   position: relative;
   text-decoration: none;
 }
 
-a:hover::after {
+a:not([data-no-style]):hover::after {
   top: 0%;
 }
 
-a::after {
+a:not([data-no-style])::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -60,6 +60,10 @@ a::after {
   border-radius: 0.2rem;
   padding: 0.2rem;
   margin: 0 0.3rem;
+}
+
+.back-button {
+  margin: 0 0.3rem 0 0;
 }
 
 
