@@ -50,6 +50,11 @@ a:not([data-no-style])::after {
   background-color: rgba(244,6,18, 0.4);
 }
 
+.other-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .other-links > a {
   margin-right: 0.5em;
 }
@@ -64,6 +69,10 @@ a:not([data-no-style])::after {
 
 .back-button {
   margin: 0 0.3rem 0 0;
+}
+
+.font-size-inherit {
+  font-size: inherit;
 }
 
 
