@@ -5,3 +5,13 @@
 p, a {
   font-size: 1rem;
 }
+
+.code-link {
+  display: inline-flex;
+}
+
+.code-link > img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0 0 0.4rem;
+}
